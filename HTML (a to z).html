@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--HTML (level 1)- Part A-->
+    <!---pargraph tag-->
+    <p><b>hello</b> Anshika yadav</p>
+    <!--nesting - ek tag ke andar ek aur tag which is known as nested tag  -->
+
+    <!--Practice Qs 1-->
+    <!--Recreate the given image using HTML tags-->
+
+    <!-- code -->
+    <h1>Avengers</h1>
+    <h2>Iron Man</h2>
+    <p>Also goes by name <b>Tony Stark.</b></p>
+    <h2>Captain America</h2>
+    <p>Also goes by name <b>Steve Rogers.</b></p>
+    <h2>Hulk</h2>
+    <p>Also goes by name <b>Bruce Banner.</b></p>
+
+    <!--indetation means spacing-->
+    <!--in HTML we do not have to worry about sapcing but in programming lang. like python it is very important.-->
+
+    <hr />
+
+    <!--HTML (level-1)--part-2 -->
+    <!--1. heading tag
+    2. paragraph tag
+    3. bold tag
+    4. anchor tag
+    5. image tag
+    6. list
+    -->
+
+    <!--Create an unodered list of 3 fruits - apple, orange and mango that also shows links to their pictures-->
+
+    <!-- code -->
+    <h1>Lists of Fruits</h1>
+    <ul>
+      <li>
+        Apple
+        <a
+          href="https://i.pinimg.com/originals/5d/a6/fc/5da6fce9e6a9189f10f203b7a33ce305.jpg"
+          >see an fruit</a
+        >
+      </li>
+      <li>
+        Orange
+        <a
+          href="https://i.pinimg.com/originals/db/f4/54/dbf454deabfd8163790b933c05eda33f.jpg"
+          >see an fruit</a
+        >
+      </li>
+      <li>
+        Mango
+        <a
+          href="https://5.imimg.com/data5/SELLER/Default/2023/9/344928632/OW/RQ/XC/25352890/yellow-mango.jpeg"
+          >see an fruit</a
+        >
+      </li>
+
+      <li>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR3hizBuSvPUyEHHLmOX0qX7Ha3JKHjYsUbw&s"
+          alt=""
+        />
+      </li>
+    </ul>
+
+    <hr />
+
+    <!-- HTML (level-2) -->
+    <!-- 1. inline v/s block
+         2. div element 
+         3. span element
+         4.hr tag -- horizontal rule element
+         5. super and subscript
+         6. Sementic markup -  it is the markup that relates to the meaning of content.
+         7. header, main, footer, nav, article, section, aside.
+         8. HTML entities
+         -->
+
+    <!-- Practice Qs 4 -->
+    <!-- print the folllowing on the screen using <h1> elements -->
+
+    <!-- code -->
+    <h1>
+      <b>Pythagoras Thorem says </b>a<sup>2</sup>b<sup>2</sup>=c<sup>2</sup>
+    </h1>
+    <h1>
+      <b>Formula of glucose is</b> C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>
+    </h1>
+
+    <!-- Practice Qs 5 -->
+    <!-- Print the folllowing on the screen using an <h1> haeding element and entities
+              
+              *search for suitable cloud &rain entities-->
+
+    <!-- code -->
+    <h1>
+      The sky is
+      <!-- #9729;-->
+      cloudy &#9729; & it will rain &amp; &#9748; today
+    </h1>
+
+    <!-- homework -->
+    <!-- 1. explore mdn and emmet
+                  2. a beginners guide to html 5 -->
+
+    <!-- tables in html -->
+    <!-- normal tags - tr, td, th -->
+    <!-- semantic tages - thead, tbody, tfooter -->
+    <!-- rowspan and colspan -->
+    <!-- create table -->
+    <table>
+      <caption>
+        Student's roll no.
+      </caption>
+    </table>
+
+    <!--  practice qs 7 -->
+    <!--recreate the following table -->
+    <table border="blue">
+      <caption>
+        A test table with merged cells
+      </caption>
+      <tbody>
+        <tr>
+          <td rowspan="2"></td>
+          <td colspan="2">Average</td>
+          <td rowspan="2">Red eyes</td>
+        </tr>
+        <tr>
+          <td>height</td>
+          <td>weight</td>
+        </tr>
+        <tr>
+          <td>Male</td>
+          <td>1.9</td>
+          <td>0.003</td>
+          <td>40%</td>
+        </tr>
+        <tr>
+          <td>Female</td>
+          <td>1.7</td>
+          <td>0.002</td>
+          <td>43%</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <hr />
+
+    <!-- forms in html -->
+    <!-- input, type, action, placeholder, label, id, name, value -->
+
+    <!-- create a youtube page where you search anything and it redirects at youtube.com -->
+
+    <!-- Practice qs 8 it is similar to above but of google -->
+    <form action="https://www.google.com/search">
+      <img
+        src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/logo_Google_FullColor_3x_830x27.max-600x600.format-webp.webp"
+        height="300px"
+        width="300px"
+        alt="google"
+      />
+      <br />
+      <label for="user"></label>
+      <input type="text" placeholder="search" id="user" name="q" />
+      <button type="submit">click</button>
+    </form>
+
+    <!-- checkbox - to selct multiple things
+         we use checked in checkbox for by default-->
+    <!--  radio - to choose one 
+         we group radio button by giving single name   -->
+
+    <!-- <form action="/server">
+         <input type="range" id="range" min="10" max="100" name="vol" step="10">
+         <label for="range">range</label>
+         <button type="submit">click</button>
+         </form> -->
+
+    <!-- Practice qs 9 -->
+    <!-- crate a form -->
+    <form action="/server">
+      <h1>Registration Form</h1>
+      <div>
+        <input type="text" placeholder="First name" name="user" />
+        <input type="text" placeholder="Last name" name="user2" />
+      </div>
+      <div>
+        <label for="gender">
+          Please select gender
+          <select name="gender" id="gender" name="gender">
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="other">other</option>
+          </select>
+        </label>
+      </div>
+      <div>
+        <label for="check"
+          >Do you agree all the terms of service
+          <input type="checkbox" id="check" name="agree" value="yes" />Yes, i
+          agree</label
+        >
+      </div>
+      <button type="submit">Register</button>
+    </form>
+
+    <hr />
+
+    <!-- Assingment problem oh Html part-3 -->
+
+    <!-- Assignment problem 1 -->
+    <!-- create a table of students information -->
+    <table border="1">
+      <caption>
+        Students information
+      </caption>
+      <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+      </tr>
+      <tr>
+        <th>City</th>
+        <th>House</th>
+      </tr>
+
+      <tr>
+        <td>A</td>
+        <td>Mumbai</td>
+        <td>1</td>
+      </tr>
+      <tr>
+        <td>B</td>
+        <td>Pune</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>C</td>
+        <td>Delhi</td>
+        <td>3</td>
+      </tr>
+      <tr>
+        <td>D</td>
+        <td>Kolkata</td>
+        <td>4</td>
+      </tr>
+    </table>
+    <!-- why removing thead and tbody info occupies the space of 6 rows before that it was not occupying -->
+
+    <hr />
+
+    <!-- Assignment problem 2 -->
+    <!-- create a form -->
+    <form action="/server">
+      <div>
+        <label for="user">Name:</label>
+        <input type="text" id="user" name="username" />
+      </div>
+      <div>
+        <label for="sex">Sex:</label>
+        <input type="radio" id="male" name="sex" value="male" />
+        <label for="male">Male</label>
+        <input type="radio" id="Female" name="sex" value="Female" />
+        <label for="Female">Female</label>
+        <input type="radio" id="others" name="sex" value="others" />
+        <label for="others">others</label>
+      </div>
+      <div>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="India" selected>India</option>
+          <option value="Japan">Japan</option>
+          <option value="Germany">Germany</option>
+          <option value="Newyork">Newyork</option>
+          <option value="China">China</option>
+          <option value="Pakistan">Pakistan</option>
+        </select>
+      </div>
+      <div>
+        <label for="mess">Message:</label> <br />
+        <textarea name="message" id="mess"></textarea>
+      </div>
+      <div>
+        <input type="checkbox" name="subscribe?" id="tick" />
+        <label for="tick">Subscribe?</label>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+
+    <hr />
+
+    <!-- Assignment problem 3 -->
+    <!-- create a feedback form -->
+    <h1>Feedback Form</h1>
+    <form action="/server">
+      <div>
+        <label for="user">Name:</label>
+        <input
+          type="text"
+          id="user"
+          placeholder="Enter your name"
+          name="username"
+        />
+      </div>
+      <div>
+        <label for="user-email">Email:</label>
+        <input
+          type="email"
+          id="user-email"
+          placeholder="Enter your email"
+          name="user-email"
+        />
+      </div>
+      <div>
+        <label for="message">Message:</label><br />
+        <textarea
+          name="message"
+          id="message"
+          placeholder="Pleas give any feeedback."
+        ></textarea>
+      </div>
+      <div>
+        <label for="rating">Rate us our of 5:</label> <br />
+        <input type="radio" name="rating" id="one" value="1" />
+        <label for="one">1</label> <br />
+        <input type="radio" name="rating" id="two" value="2"/>
+        <label for="two">2</label> <br />
+        <input type="radio" name="rating" id="three" value="3" />
+        <label for="three">3</label> <br />
+        <input type="radio" name="rating" id="four" value="4"/>
+        <label for="four">4</label> <br />
+        <input type="radio" name="rating" id="five" value="5" />
+        <label for="five">5</label>
+      </div>
+      <button type="submit">Send your message!</button>
+    </form>
+  </body>
+</html>
